@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ClockWeb-</title>
+    <style>
+        body
+        {
+            margin: 0;
+            overflow: hidden;
+            background-color: #000;
+            cursor: none;
+
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        canvas
+        {
+            display: block;
+        }
+
+        .view_block {
+            position: absolute;
+            top: 0;
+            left: 0;
+            background-color: #fff;
+            color: #000;
+            font-weight: 5S00;
+            padding: 4px 6px;
+            text-decoration: none;
+        }
+
+        .view_block:hover {
+            background: #f1d500;
+            color: #3e3e3e;
+
+            box-shadow: #f1d500 0 0 10px;
+        }
+    </style>
+</head>
+<body>
+    <a class="view_block" href="../../index.html">Обратно на главную</a>
+    <canvas></canvas>
+    <script src="Particle.js"></script>
+    <script src="Clock.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
